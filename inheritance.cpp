@@ -91,13 +91,4 @@ int main(){
     cout<<"............."<<endl;
 
 
-    ElectricCar* myElectricCar = new ElectricCar("Tesla","model s");
-     myElectricCar->chargeBattery();//specific to electric car
-     myElectricCar->startEngine();
-     myElectricCar->accelerate();
-     myElectricCar->brake();
-     myElectricCar->startEngine();
-     delete myElectricCar;
-
-     return 0;
 }
